@@ -23,8 +23,7 @@
         null,
         12,
         5,
-        null,
-        12,
+        7,
         3,
         null,
         null,
@@ -42,8 +41,8 @@
         null,
         null,
         1,
-        64,
-        425,
+        60,
+        412,
         null,
         null,
         null,
@@ -54,7 +53,7 @@
         null,
         null,
         1,
-        28,
+        23,
         null,
         null,
         1,
@@ -72,7 +71,7 @@
         null,
         null,
         1,
-        154,
+        148,
         null,
         null,
         1,
@@ -94,6 +93,6 @@
         null
       ]
     },
-    "timestamp": 1606091117
+    "timestamp": 1606091141
   }
 }
