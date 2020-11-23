@@ -62,7 +62,7 @@ def turn(board)
   if !valid_move?(board, input_to_index(input))
     turn(board)
   end
-  move(board, input, current_player(board))
+  move(board, input_to_index(input), current_player(board))
   display_board(board)
 end
 
@@ -79,7 +79,7 @@ def turn_count(board)
 end
 
 def move(board, location, player)
-  board[location.to_i-1] = player
+  board[location] = player
 end
 
 def winner(board)
